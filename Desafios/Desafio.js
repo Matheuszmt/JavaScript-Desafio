@@ -1,6 +1,8 @@
-let nome = "Matheus"
-let xp = 10002
-let nivel
+let nome = "Matheus" //nome do heroi
+let xp = 8400 //Defina o xp no heroi
+let nivel //nivel que será declarado durante o tempo, baseado na quantidade de xp do herói
+
+//code
 
 switch(true){
     case (xp <= 1000):
@@ -21,6 +23,10 @@ switch(true){
     break;
     case (xp <= 8000):
     nivel = "Platina"
+    console.log("O herói de nome",nome,"está no nivel",nivel,)
+    break;
+    case ( xp <= 8500):
+    nivel = "Diamante"
     console.log("O herói de nome",nome,"está no nivel",nivel,)
     break;
     case (xp <= 9000):
