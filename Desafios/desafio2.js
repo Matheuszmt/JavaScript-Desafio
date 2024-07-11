@@ -3,6 +3,7 @@ function winAndLosses(wins, losses){
     return somatorio
 }
 let nivel
+console.log("Digite o numero de Vitórias e depois o numero de Derrotas!")
 let saldoVitorias = winAndLosses(90,11)
 switch(true){
     case saldoVitorias <= 10:
